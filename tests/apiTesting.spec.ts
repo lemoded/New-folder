@@ -39,6 +39,4 @@ test("api testing 5" , async({request}) =>
         console.log((await responce.json()));
         expect(responce.status()).toBe(200);
         expect(responce.ok()).toBeTruthy();
-
-
 });
